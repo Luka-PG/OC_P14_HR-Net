@@ -1,0 +1,27 @@
+
+.error-404 {
+    width: 75%;
+    margin: 0 auto;
+    padding: 90px 90px 0 90px;
+    text-align: center;
+}
+
+.error-404-title {
+    font-size: 75px;
+    color: #000000;
+    font-weight: 700;
+    line-height: 1.2;
+    margin: 50px 0 70px 0;
+}
+
+.error-404-link {
+    color: #000000;
+    font-size: 30px;
+    font-weight: 500;
+    text-decoration: underline;
+}
+
+.error-404-link:hover {
+    color: #678005;
+}
+

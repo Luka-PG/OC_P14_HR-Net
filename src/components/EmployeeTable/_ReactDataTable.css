@@ -1,0 +1,33 @@
+.rdt_TableHeadRow {
+    font-size: 16.5px;
+    font-weight: 700;
+    white-space: normal;
+}
+
+.rdt_TableRow {
+
+transition: 0.2s !important;
+}
+.rdt_TableRow:hover {
+    transition: 0.2s !important;
+}
+.rdt_Pagination {
+    font-size: 16.5px;
+    width: 50% !important;
+    font-weight: 500 !important;
+    color: #678005 !important;
+    margin-left: auto;
+}
+
+.rdt_TableCell {
+    font-size: 15px;
+}
+
+.hbotQl {
+    color: #678005;
+    white-space: normal !important;
+}
+
+.fyrdjl:disabled {
+    fill: #678005 !important;
+}

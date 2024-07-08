@@ -1,0 +1,32 @@
+.employee-list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 50px;
+    padding-bottom: 50px;
+    background-color: rgba(177, 177, 177, 0.377);
+}
+
+.employee-list-title {
+    font-size: 42px;
+    color: #678005;
+    margin: 15px 0 0 0;
+}
+
+.employee-list-content {
+    width: 100%;
+    max-width: 1800px;
+    padding: 40px 50px;
+    margin: 0 45px 60px 45px;
+    display: flex;
+    flex-direction: column;
+    background-color: #ffffff;
+    border-radius: 8px;
+    border: 0.2px solid rgba(211, 211, 211, 0.507);
+    box-shadow: 0 8px 24px rgb(149 157 165/20%);
+
+    @media screen and (max-width:1440px ){
+        padding: 40px 15px;
+        margin: 0 45px 0 45px;
+    }
+}

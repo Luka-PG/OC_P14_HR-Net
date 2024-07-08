@@ -1,0 +1,22 @@
+.search-label {
+    font-size: 15px;
+    color: #678005;
+}
+
+.search-input {
+    width: 100%;
+    height: 35px;
+    padding: 10px;
+    border-radius: 8px;
+    border: 1px solid #a7a7a7;
+}
+
+.search-input-error {
+    border: 3px solid #ff0033;
+}
+
+.search-table {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}

@@ -1,0 +1,46 @@
+.react-select {
+    width: 100%;
+}
+
+.react-select-error .react-select-control {
+    border: 3px solid #ff0033 !important;
+    border-radius: 8px !important;
+}
+
+.react-select-control {
+    height: 45px;
+    border-radius: 8px !important;
+    border: 1px solid #a7a7a7 !important;
+}
+
+.react-select-control:focus,
+.react-select-control:focus-within,
+.react-select-control:focus-visible {
+        box-shadow: 0 0 0 3px #000000 !important;
+      
+}
+
+.react-select-placeholder {
+    color: transparent !important;
+}
+
+.react-select-value-container {
+    height: 100%;
+}
+
+.react-select-placeholder:focus,
+.react-select-placeholder:focus-within,
+.react-select-placeholder:focus-visible {
+    color: transparent;
+}
+
+.react-select-input-container {
+    height: 100%;
+}
+
+.react-select-input:focus,
+.react-select-input:focus-within,
+.react-select-input:focus-visible {
+    box-shadow: none;
+    outline: auto;
+}
