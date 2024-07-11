@@ -3,6 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "date-fns": "^3.6.0",
     "luka.pg-modal-package-react": "^1.0.3",
     "prop-types": "^15.8.1",
     "react": "^18.3.1",
