@@ -8,10 +8,7 @@
     width: 25%;
 
     @media screen and (max-width: 1024px ) {
-        width: 50%;
-    }
-
-    @media screen and (max-width: 768px ) {
+        padding: 0 65px 0 65px;
         width: 100%;
         align-self: normal;
     }

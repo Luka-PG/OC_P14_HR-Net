@@ -3,14 +3,24 @@
     flex-direction: column;
     align-items: center;
     gap: 50px;
-    padding-bottom: 50px;
+    padding: 50px 50px 77px 50px;
     background-color: rgba(177, 177, 177, 0.377);
+
+    @media screen and (max-width:1024px ) {
+        padding: 35px 15px 38px 15px;
+    }
 }
 
 .employee-list-title {
     font-size: 42px;
     color: #678005;
     margin: 15px 0 0 0;
+    background-color: white;
+    padding: 10px 25px 10px 25px;
+    border-radius: 10px;
+    margin-bottom: -65px;
+    border: 0.2px solid rgba(211, 211, 211, 0.507);
+    z-index: 0;
 }
 
 .employee-list-content {

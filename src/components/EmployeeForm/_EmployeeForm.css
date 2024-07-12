@@ -1,7 +1,7 @@
 .employee-form-form {
     display: flex;
     flex-wrap: wrap;
-
+    z-index: 1;
     @media screen and (max-width: 768px ) {
         flex-direction: column;
     }
@@ -73,6 +73,14 @@
 .employee-form-modal-txt {
     font-size: 18px;
     text-align: center;
+}
+
+.react-select__placeholder {
+
+    @media screen and (max-width: 1024px ) {
+    font-size: 15px !important;
+    }
+
 }
 
 .btn {
