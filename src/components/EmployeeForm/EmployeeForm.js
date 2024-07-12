@@ -198,7 +198,7 @@ const EmployeeForm = () => {
                         )}
                     </div>
                 </div>
-                <Modal title="The new employee has been added successfully !" onClose={ ()=> setShow(false) }  show={ show } />;
+                <Modal title="The new employee has been added successfully !" onClose={ ()=> setShow(false) }  show={ show } />
                 <button className="btn">Save</button>
             </form>
 
