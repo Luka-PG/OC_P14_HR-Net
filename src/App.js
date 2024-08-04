@@ -10,7 +10,7 @@ import Error404 from "./pages/Error404/Error404";
 import Header from "./components/Header/Header";
 import Footer from "./components/Footer/Footer";
 
-/* le component "app" retourne un élément qui fait un rendu du de la mise en page de l'application en fonction du chemin appelé */
+/* le component "app" est le composant principal de l'application, il contient la structure principale de l'interface utilisateur */
 
 const App = () => {
     // apporte la boucle "useEmployee" pour pouvoir acceder au données des employés dans le context
