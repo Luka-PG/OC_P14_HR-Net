@@ -10,21 +10,21 @@ import Error404 from "./pages/Error404/Error404";
 import Header from "./components/Header/Header";
 import Footer from "./components/Footer/Footer";
 
-/*The App component returns element that renders Layout component which contains an AppRouter component.*/
+/* le component "app" retourne un élément qui fait un rendu du de la mise en page de l'application en fonction du chemin appelé */
 
 const App = () => {
-    // Get useEmployee hook for access employee data in context
+    // apporte la boucle "useEmployee" pour pouvoir acceder au données des employés dans le context
     const employeeHook = useEmployee();
 
     return (
         <div className="app">
-            {/* Provide the useEmployee hook to the EmployeeContext */}
+            {/* fournis la boucle useEmployee au contexte */}
             <EmployeeContext.Provider value={employeeHook}>
                 <Header />
                 <Routes>
                     <Route path="/" element={<CreateEmployee />} />
                     <Route path="/employee-list" element={<EmployeeList />} />
-                    {/* path="*" if the path does not correspond to any route declared above */}
+                    {/* path="*" si le chemin ne correspond à aucune des routes déclaré si dessus */}
                     <Route path="*" element={<Error404 />} />
                 </Routes>
                 <Footer />
